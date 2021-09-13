@@ -93,4 +93,5 @@ As you can see there are a couple of extra parameters here.
   * Login page with seperate input field for mfa token
   * Defining username / password input names in case they are not containing `(user|email)` or `pass`
 
-  
+# Note of thanks
+* I took a trick or two from the official [AWS blog](https://aws.amazon.com/blogs/security/how-to-implement-a-general-solution-for-federated-apicli-access-using-saml-2-0/) to build this more easily.
