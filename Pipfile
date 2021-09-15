@@ -11,6 +11,9 @@ twine = "*"
 awsume = "*"
 requests = "2.22.0"
 beautifulsoup4 = "4.10.0"
+wheel = "*"
+bs4 = "*"
+awsume[saml] = "*"
 
 [requires]
 python_version = "3.7"
