@@ -40,16 +40,25 @@ Assuming role: arn:aws:iam::111222333444:saml-provider/myprovider,arn:aws:iam::1
 Role credentials will expire 2021-09-10 13:59:58
 ```
 
-# Installation
+# Installation (OSX, Linux)
 ```
 mkdir ~/.awsume-installers
 cd ~/.awsume-installers
 git clone https://github.com/Timboo89/awsume.git
 git clone https://github.com/Timboo89/awsume-saml-plugin.git
 pip install ./awsume
+pip install awsume[saml]
 pip install ./awsume-saml-plugin
 # recommendation: also install the console plugin
-pip install awsume-console-plugin
+pip install awsume[console]
+pip install awsume[fuzzy]
+```
+
+# Installation (Windows)
+```
+Download git
+Download python
+
 ```
 
 # Additional configuration
