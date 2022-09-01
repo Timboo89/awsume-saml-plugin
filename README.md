@@ -48,6 +48,7 @@ git clone https://github.com/Timboo89/awsume.git
 git clone https://github.com/Timboo89/awsume-saml-plugin.git
 pip install ./awsume
 pip install awsume[saml]
+pip install -r ./awsume-saml-plugin/requirements.txt
 pip install ./awsume-saml-plugin
 # recommendation: also install the console plugin
 pip install awsume[console]
@@ -56,8 +57,7 @@ pip install awsume[fuzzy]
 
 # Installation (Windows)
 ```
-Download git
-Download python
+No guide yet.
 
 ```
 
